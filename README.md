@@ -1,0 +1,1 @@
+Password strength checker created using JS
