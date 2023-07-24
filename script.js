@@ -34,6 +34,7 @@ function checkPasswordStrength(password) {
   submitButton.addEventListener('click', function(){
     const buttonType = password.getAttribute("type");
     
+    //switch hide/view password
     if (buttonType === "password")
     {
         btnImage.src = 'Assets/hidden.png';
